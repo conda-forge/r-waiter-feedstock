@@ -1,4 +1,4 @@
-{% set version = "0.2.4" %}
+{% set version = "0.2.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/waiter_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/waiter/waiter_{{ version }}.tar.gz
-  sha256: 4b0af45e609036688bc46f0621bcadf515e6071cbc80d60096d40ca434067d76
+  sha256: 9ac25e979db9242598bd0492ff862360009b51ce672184ec9f4eeb2232164979
 
 build:
   merge_build_host: true  # [win]
