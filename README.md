@@ -1,11 +1,11 @@
-About r-waiter
-==============
+About r-waiter-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-waiter-feedstock/blob/main/LICENSE.txt)
 
 Home: https://waiter.john-coene.com/, https://github.com/JohnCoene/waiter
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-waiter-feedstock/blob/main/LICENSE.txt)
 
 Summary: Full screen and partial loading screens for 'Shiny' with spinners, progress bars, and notifications.
 
