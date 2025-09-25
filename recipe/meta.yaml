@@ -1,4 +1,4 @@
-{% set version = "0.2.5" %}
+{% set version = "0.2.5.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/waiter_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/waiter/waiter_{{ version }}.tar.gz
-  sha256: 9ac25e979db9242598bd0492ff862360009b51ce672184ec9f4eeb2232164979
+  sha256: 7b114c8c2a4050584f0c50951376d3b1f14498b6c3792b0d0295771c02d240d4
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
